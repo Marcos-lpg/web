@@ -1,5 +1,6 @@
 
 body {
+    margin: 0;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -28,10 +29,11 @@ body {
     position: relative;
     background-color: #8f0024;
     color: white;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
     height:50%;
     font-size: 15px;
+    
 }
 .header nav {
     display: flex;
@@ -96,7 +98,7 @@ section {
 }
 
 
-.image-container {
+.image1 {
     position: relative;
     width: 100%;
     max-width: 400px; 
@@ -105,7 +107,7 @@ section {
 }
 
 
-.image-container {
+.image1 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -116,29 +118,29 @@ section {
 
 
 
-.social-icons {
+.icons {
     
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-icons a {
+.icons a {
     margin: 0 10px;
 }
 
-.social-icons img {
+.icons img {
     width: 30px; 
     height: 30px;
     transition: transform 0.3s ease;
 }
 
-.social-icons img:hover {
+.icons img:hover {
     transform: scale(1.2); 
 }
 
   
-  .social-icons {
+  .icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +155,7 @@ section {
     flex-direction: column;
   }
   
-  .social-icons a {
+  .icons a {
     margin-bottom: 10px;
     text-decoration: none;
     display: block;
@@ -161,7 +163,7 @@ section {
     height: 40px;
   }
   
-  .social-icons img {
+  .icons img {
     width: 100%;
     height: auto;
   }
@@ -177,7 +179,7 @@ section {
 img{
     max-width: 100%;
 }
-.image-container{
+.image1{
     font-size: 11px;
     position: relative;
     display: flex;
